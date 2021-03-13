@@ -129,8 +129,8 @@ def weight_to_velocity_channel(weight):
     velocity = weight // (channel + 1)
     return velocity, channel
 
-def a3_notes_to_text():
-    lipsync_item = get_reaper_item("lipsync")
+def a3_notes_to_text(track):
+    lipsync_item = get_reaper_item(track)
     if lipsync_item is None: 
         return
 
@@ -156,8 +156,8 @@ def a3_notes_to_text():
 
     write_midi_data(lipsync_item, lipsync_data)
 
-def a3_text_to_notes():
-    lipsync_item = get_reaper_item("lipsync")
+def a3_text_to_notes(track):
+    lipsync_item = get_reaper_item(track)
     if lipsync_item is None: 
         return
 
