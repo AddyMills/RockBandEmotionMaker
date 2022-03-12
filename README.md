@@ -80,3 +80,6 @@ The MIDI notes that correspond to different notes are as follows:
 * 113: 'Told_lo',
 * 114: 'Wet_hi',
 * 115: 'Wet_lo',
+
+## Special Thanks
+The code in this script was mainly written by kueller (whose repo this one was forked from). I rewrote the notes to text fuction with my own code for this project.
