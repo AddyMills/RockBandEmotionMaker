@@ -1,0 +1,640 @@
+<REAPER_PROJECT 0.1 "6.42/win64" 1647066586
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 1151 8 1 8 1 0 0 0
+  TIMEMODE 1 0 -1 24 2 0 -1
+  CURSOR 0.5
+  ZOOM 81.376182672 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 1
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 0 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhdxAAAA==
+  >
+  <APPLYFX_CFG
+    ZXZhdxAAAA==
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 0
+  TEMPOENVLOCKMODE 0
+  ITEMMIX 0
+  DEFPITCHMODE 0 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxAAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.752735 0.723913
+    FREQ 800 1600 0
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {4C6FF512-B953-4593-9C7F-0159B81452CD}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {455FBEEF-0F47-48BB-AA00-FE54F424042D}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {59866E7C-B3EC-4CBB-BC56-13AF1943665D}
+    NAME emotion1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {59866E7C-B3EC-4CBB-BC56-13AF1943665D}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 48 - 0 48
+      -1 49 Blink 0 49
+      -1 50 Brow_aggressive 0 50
+      -1 51 Brow_down 0 51
+      -1 52 Brow_dramatic 0 52
+      -1 53 Brow_openmouthed 0 53
+      -1 54 Brow_pouty 0 54
+      -1 55 Brow_up 0 55
+      -1 56 Wide_eyed 0 56
+      -1 57 - 0 57
+      -1 58 exp_banger_oohface_01 0 58
+      -1 59 exp_banger_roar_01 0 59
+      -1 60 exp_banger_slackjawed_01 0 60
+      -1 61 exp_banger_teethgrit_01 0 61
+      -1 62 exp_dramatic_happy_eyesclosed_01 0 62
+      -1 63 exp_dramatic_happy_eyesopen_01 0 63
+      -1 64 exp_dramatic_mouthopen_01 0 64
+      -1 65 exp_dramatic_pouty_01 0 65
+      -1 66 exp_rocker_bassface_aggressive_01 0 66
+      -1 67 exp_rocker_bassface_cool_01 0 67
+      -1 68 exp_rocker_shout_eyesclosed_01 0 68
+      -1 69 exp_rocker_shout_eyesopen_01 0 69
+      -1 70 exp_rocker_shout_quick_01 0 70
+      -1 71 exp_rocker_slackjawed_01 0 71
+      -1 72 exp_rocker_smile_intense_01 0 72
+      -1 73 exp_rocker_smile_mellow_01 0 73
+      -1 74 exp_rocker_soloface_01 0 74
+      -1 75 exp_rocker_teethgrit_happy_01 0 75
+      -1 76 exp_rocker_teethgrit_pained_01 0 76
+      -1 77 exp_spazz_eyesclosed_01 0 77
+      -1 78 exp_spazz_snear_intense_01 0 78
+      -1 79 exp_spazz_snear_mellow_01 0 79
+      -1 80 exp_spazz_tongueout_front_01 0 80
+      -1 81 exp_spazz_tongueout_side_01 0 81
+      -1 82 - 0 82
+      -1 83 Bump_hi 0 83
+      -1 84 Bump_lo 0 84
+      -1 85 Cage_hi 0 85
+      -1 86 Cage_lo 0 86
+      -1 87 Church_hi 0 87
+      -1 88 Church_lo 0 88
+      -1 89 Earth_hi 0 89
+      -1 90 Earth_lo 0 90
+      -1 91 Eat_hi 0 91
+      -1 92 Eat_lo 0 92
+      -1 93 Fave_hi 0 93
+      -1 94 Fave_lo 0 94
+      -1 95 If_hi 0 95
+      -1 96 If_lo 0 96
+      -1 97 Neutral_hi 0 97
+      -1 98 Neutral_lo 0 98
+      -1 99 New_hi 0 99
+      -1 100 New_lo 0 100
+      -1 101 Oat_hi 0 101
+      -1 102 Oat_lo 0 102
+      -1 103 Ox_hi 0 103
+      -1 104 Ox_lo 0 104
+      -1 105 Roar_hi 0 105
+      -1 106 Roar_lo 0 106
+      -1 107 Size_hi 0 107
+      -1 108 Size_lo 0 108
+      -1 109 Squint 0 109
+      -1 110 Though_hi 0 110
+      -1 111 Though_lo 0 111
+      -1 112 Told_hi 0 112
+      -1 113 Told_lo 0 113
+      -1 114 Wet_hi 0 114
+      -1 115 Wet_lo 0 115
+      -1 116 - 0 116
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 224
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {818ACCCD-E898-4DCC-9C43-1C181DCC5754}
+      IID 1
+      NAME "emotion1 untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B06B3FC-89F6-4E3F-952C-01883C53456B}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {0DD547FE-52AF-4CD3-A1E2-31E12637BCC6}
+        E 215040 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {0832FE1A-A0D1-4CD1-BCBF-6666D2A4526D}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 341
+        VELLANE 132 453 60
+        CFGEDITVIEW 0 94.099749 0 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -269
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.0625 631 138 1798 922 0 0 1 2 0 0 1 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {F8C0C7D0-6E15-41B3-8965-7B9BCFF8CE3F}
+    NAME emotion2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F8C0C7D0-6E15-41B3-8965-7B9BCFF8CE3F}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 48 - 0 48
+      -1 49 Blink 0 49
+      -1 50 Brow_aggressive 0 50
+      -1 51 Brow_down 0 51
+      -1 52 Brow_dramatic 0 52
+      -1 53 Brow_openmouthed 0 53
+      -1 54 Brow_pouty 0 54
+      -1 55 Brow_up 0 55
+      -1 56 Wide_eyed 0 56
+      -1 57 - 0 57
+      -1 58 exp_banger_oohface_01 0 58
+      -1 59 exp_banger_roar_01 0 59
+      -1 60 exp_banger_slackjawed_01 0 60
+      -1 61 exp_banger_teethgrit_01 0 61
+      -1 62 exp_dramatic_happy_eyesclosed_01 0 62
+      -1 63 exp_dramatic_happy_eyesopen_01 0 63
+      -1 64 exp_dramatic_mouthopen_01 0 64
+      -1 65 exp_dramatic_pouty_01 0 65
+      -1 66 exp_rocker_bassface_aggressive_01 0 66
+      -1 67 exp_rocker_bassface_cool_01 0 67
+      -1 68 exp_rocker_shout_eyesclosed_01 0 68
+      -1 69 exp_rocker_shout_eyesopen_01 0 69
+      -1 70 exp_rocker_shout_quick_01 0 70
+      -1 71 exp_rocker_slackjawed_01 0 71
+      -1 72 exp_rocker_smile_intense_01 0 72
+      -1 73 exp_rocker_smile_mellow_01 0 73
+      -1 74 exp_rocker_soloface_01 0 74
+      -1 75 exp_rocker_teethgrit_happy_01 0 75
+      -1 76 exp_rocker_teethgrit_pained_01 0 76
+      -1 77 exp_spazz_eyesclosed_01 0 77
+      -1 78 exp_spazz_snear_intense_01 0 78
+      -1 79 exp_spazz_snear_mellow_01 0 79
+      -1 80 exp_spazz_tongueout_front_01 0 80
+      -1 81 exp_spazz_tongueout_side_01 0 81
+      -1 82 - 0 82
+      -1 83 Bump_hi 0 83
+      -1 84 Bump_lo 0 84
+      -1 85 Cage_hi 0 85
+      -1 86 Cage_lo 0 86
+      -1 87 Church_hi 0 87
+      -1 88 Church_lo 0 88
+      -1 89 Earth_hi 0 89
+      -1 90 Earth_lo 0 90
+      -1 91 Eat_hi 0 91
+      -1 92 Eat_lo 0 92
+      -1 93 Fave_hi 0 93
+      -1 94 Fave_lo 0 94
+      -1 95 If_hi 0 95
+      -1 96 If_lo 0 96
+      -1 97 Neutral_hi 0 97
+      -1 98 Neutral_lo 0 98
+      -1 99 New_hi 0 99
+      -1 100 New_lo 0 100
+      -1 101 Oat_hi 0 101
+      -1 102 Oat_lo 0 102
+      -1 103 Ox_hi 0 103
+      -1 104 Ox_lo 0 104
+      -1 105 Roar_hi 0 105
+      -1 106 Roar_lo 0 106
+      -1 107 Size_hi 0 107
+      -1 108 Size_lo 0 108
+      -1 109 Squint 0 109
+      -1 110 Though_hi 0 110
+      -1 111 Though_lo 0 111
+      -1 112 Told_hi 0 112
+      -1 113 Told_lo 0 113
+      -1 114 Wet_hi 0 114
+      -1 115 Wet_lo 0 115
+      -1 116 - 0 116
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 224
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {617F21CA-3A5E-48E6-9DCD-59873B9F81A4}
+      IID 2
+      NAME "emotion2 untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2066837B-3920-4808-B96B-ABF0EB6210C9}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {1D115E3D-B7C6-42AF-BFEF-1F102B32E8F8}
+        E 215040 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {79B9BCCC-3D9D-431E-B0DB-9801DFE4B154}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 342
+        VELLANE 132 453 60
+        CFGEDITVIEW 0 94.099749 19 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -269
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.0625 631 138 1798 922 0 0 1 2 0 0 1 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {3C68AD9A-9EEE-4E77-8FB1-6E62BA8DCFE6}
+    NAME emotion3
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3C68AD9A-9EEE-4E77-8FB1-6E62BA8DCFE6}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 48 - 0 48
+      -1 49 Blink 0 49
+      -1 50 Brow_aggressive 0 50
+      -1 51 Brow_down 0 51
+      -1 52 Brow_dramatic 0 52
+      -1 53 Brow_openmouthed 0 53
+      -1 54 Brow_pouty 0 54
+      -1 55 Brow_up 0 55
+      -1 56 Wide_eyed 0 56
+      -1 57 - 0 57
+      -1 58 exp_banger_oohface_01 0 58
+      -1 59 exp_banger_roar_01 0 59
+      -1 60 exp_banger_slackjawed_01 0 60
+      -1 61 exp_banger_teethgrit_01 0 61
+      -1 62 exp_dramatic_happy_eyesclosed_01 0 62
+      -1 63 exp_dramatic_happy_eyesopen_01 0 63
+      -1 64 exp_dramatic_mouthopen_01 0 64
+      -1 65 exp_dramatic_pouty_01 0 65
+      -1 66 exp_rocker_bassface_aggressive_01 0 66
+      -1 67 exp_rocker_bassface_cool_01 0 67
+      -1 68 exp_rocker_shout_eyesclosed_01 0 68
+      -1 69 exp_rocker_shout_eyesopen_01 0 69
+      -1 70 exp_rocker_shout_quick_01 0 70
+      -1 71 exp_rocker_slackjawed_01 0 71
+      -1 72 exp_rocker_smile_intense_01 0 72
+      -1 73 exp_rocker_smile_mellow_01 0 73
+      -1 74 exp_rocker_soloface_01 0 74
+      -1 75 exp_rocker_teethgrit_happy_01 0 75
+      -1 76 exp_rocker_teethgrit_pained_01 0 76
+      -1 77 exp_spazz_eyesclosed_01 0 77
+      -1 78 exp_spazz_snear_intense_01 0 78
+      -1 79 exp_spazz_snear_mellow_01 0 79
+      -1 80 exp_spazz_tongueout_front_01 0 80
+      -1 81 exp_spazz_tongueout_side_01 0 81
+      -1 82 - 0 82
+      -1 83 Bump_hi 0 83
+      -1 84 Bump_lo 0 84
+      -1 85 Cage_hi 0 85
+      -1 86 Cage_lo 0 86
+      -1 87 Church_hi 0 87
+      -1 88 Church_lo 0 88
+      -1 89 Earth_hi 0 89
+      -1 90 Earth_lo 0 90
+      -1 91 Eat_hi 0 91
+      -1 92 Eat_lo 0 92
+      -1 93 Fave_hi 0 93
+      -1 94 Fave_lo 0 94
+      -1 95 If_hi 0 95
+      -1 96 If_lo 0 96
+      -1 97 Neutral_hi 0 97
+      -1 98 Neutral_lo 0 98
+      -1 99 New_hi 0 99
+      -1 100 New_lo 0 100
+      -1 101 Oat_hi 0 101
+      -1 102 Oat_lo 0 102
+      -1 103 Ox_hi 0 103
+      -1 104 Ox_lo 0 104
+      -1 105 Roar_hi 0 105
+      -1 106 Roar_lo 0 106
+      -1 107 Size_hi 0 107
+      -1 108 Size_lo 0 108
+      -1 109 Squint 0 109
+      -1 110 Though_hi 0 110
+      -1 111 Though_lo 0 111
+      -1 112 Told_hi 0 112
+      -1 113 Told_lo 0 113
+      -1 114 Wet_hi 0 114
+      -1 115 Wet_lo 0 115
+      -1 116 - 0 116
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 224
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2E8570DA-25FC-4B45-B915-FE1C495F4B01}
+      IID 3
+      NAME "emotion3 untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88828EC0-EDC1-49E4-9C8F-977F24947A26}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {995DE07B-0B00-4501-AFCA-5D254D2A7D88}
+        E 215040 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {FD3CC7E3-F04F-4AE9-8A41-1E82AC3B58E8}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 343
+        VELLANE 132 453 60
+        CFGEDITVIEW 0 94.099749 28 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -269
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.0625 631 138 1798 922 0 0 1 2 0 0 1 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {E29D724C-EEF6-404B-9249-F20E963A055E}
+    NAME emotion4
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E29D724C-EEF6-404B-9249-F20E963A055E}
+    PERF 0
+    MIDIOUT -1
+    <MIDINOTENAMES
+      -1 48 - 0 48
+      -1 49 Blink 0 49
+      -1 50 Brow_aggressive 0 50
+      -1 51 Brow_down 0 51
+      -1 52 Brow_dramatic 0 52
+      -1 53 Brow_openmouthed 0 53
+      -1 54 Brow_pouty 0 54
+      -1 55 Brow_up 0 55
+      -1 56 Wide_eyed 0 56
+      -1 57 - 0 57
+      -1 58 exp_banger_oohface_01 0 58
+      -1 59 exp_banger_roar_01 0 59
+      -1 60 exp_banger_slackjawed_01 0 60
+      -1 61 exp_banger_teethgrit_01 0 61
+      -1 62 exp_dramatic_happy_eyesclosed_01 0 62
+      -1 63 exp_dramatic_happy_eyesopen_01 0 63
+      -1 64 exp_dramatic_mouthopen_01 0 64
+      -1 65 exp_dramatic_pouty_01 0 65
+      -1 66 exp_rocker_bassface_aggressive_01 0 66
+      -1 67 exp_rocker_bassface_cool_01 0 67
+      -1 68 exp_rocker_shout_eyesclosed_01 0 68
+      -1 69 exp_rocker_shout_eyesopen_01 0 69
+      -1 70 exp_rocker_shout_quick_01 0 70
+      -1 71 exp_rocker_slackjawed_01 0 71
+      -1 72 exp_rocker_smile_intense_01 0 72
+      -1 73 exp_rocker_smile_mellow_01 0 73
+      -1 74 exp_rocker_soloface_01 0 74
+      -1 75 exp_rocker_teethgrit_happy_01 0 75
+      -1 76 exp_rocker_teethgrit_pained_01 0 76
+      -1 77 exp_spazz_eyesclosed_01 0 77
+      -1 78 exp_spazz_snear_intense_01 0 78
+      -1 79 exp_spazz_snear_mellow_01 0 79
+      -1 80 exp_spazz_tongueout_front_01 0 80
+      -1 81 exp_spazz_tongueout_side_01 0 81
+      -1 82 - 0 82
+      -1 83 Bump_hi 0 83
+      -1 84 Bump_lo 0 84
+      -1 85 Cage_hi 0 85
+      -1 86 Cage_lo 0 86
+      -1 87 Church_hi 0 87
+      -1 88 Church_lo 0 88
+      -1 89 Earth_hi 0 89
+      -1 90 Earth_lo 0 90
+      -1 91 Eat_hi 0 91
+      -1 92 Eat_lo 0 92
+      -1 93 Fave_hi 0 93
+      -1 94 Fave_lo 0 94
+      -1 95 If_hi 0 95
+      -1 96 If_lo 0 96
+      -1 97 Neutral_hi 0 97
+      -1 98 Neutral_lo 0 98
+      -1 99 New_hi 0 99
+      -1 100 New_lo 0 100
+      -1 101 Oat_hi 0 101
+      -1 102 Oat_lo 0 102
+      -1 103 Ox_hi 0 103
+      -1 104 Ox_lo 0 104
+      -1 105 Roar_hi 0 105
+      -1 106 Roar_lo 0 106
+      -1 107 Size_hi 0 107
+      -1 108 Size_lo 0 108
+      -1 109 Squint 0 109
+      -1 110 Though_hi 0 110
+      -1 111 Though_lo 0 111
+      -1 112 Told_hi 0 112
+      -1 113 Told_lo 0 113
+      -1 114 Wet_hi 0 114
+      -1 115 Wet_lo 0 115
+      -1 116 - 0 116
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 224
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {9987981D-49F8-4E13-BC28-32AAE5F8BD12}
+      IID 4
+      NAME "emotion4 untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B75AA7E5-EEA0-4E48-A640-11B9DC06F59F}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {7DE60AEB-0EBD-477D-B0C5-77ADEA5879C7}
+        E 215040 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {55E8B6E7-3193-4A9A-814F-86959B4D83EE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 344
+        VELLANE 132 453 60
+        CFGEDITVIEW 0 94.099749 24 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL -269
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 1 1 1 1 1 1 0.0625 631 138 1798 922 0 0 1 2 0 0 1 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <EXTENSIONS
+  >
+>
