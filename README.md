@@ -11,6 +11,10 @@ The script will create events in between two other events. That is, if you want 
 
 https://user-images.githubusercontent.com/74471839/158006726-b692466e-a21f-40c1-9df1-ff62150bdf5d.mp4
 
+Please see the following video for a demonstration of the different emotions available:
+
+https://www.youtube.com/watch?v=D5VSSrYH5c4
+
 The MIDI notes that correspond to different notes are as follows:
 
 * 49: 'Blink',
