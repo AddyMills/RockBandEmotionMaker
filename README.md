@@ -5,6 +5,10 @@ Usage: Add RBEM as a script to Reaper. This script will read tracks named "emoti
 
 Place notes on the notes outlined below with a velocity of 0-127 and a channel of 1 or 2 allowing you to go from 0-255 in strength. Running the script will then place text events in the track. Copy this to a track named "LIPSYNC\#" where \# is 1-4 and let Onyx create a milo file to be used in-game.
 
+The script will create events in between two other events. That is, if you want your character to slowly transition into a viseme, all you need to do is place two events, your first event, and your last event, and the script will fill in the rest:
+
+https://user-images.githubusercontent.com/74471839/158006726-b692466e-a21f-40c1-9df1-ff62150bdf5d.mp4
+
 The MIDI notes that correspond to different notes are as follows:
 
 * 49: 'Blink',
