@@ -56,25 +56,6 @@ def get_reaper_item(title):
     # Media item found is the one we want. Ignore dupes.
     return matched_items[0]
 
-def get_all_track_names():
-    tracks = [] 
-    for i in range(RPR_CountTracks(0)):
-        t = RPR_GetTrack(0, i)
-
-        try:
-            t_name = RPR_GetSetMediaTrackInfo_String(t, "P_NAME", "", 0)[3]
-        except UnicodeDecodeError:
-            vg_error("One of your track names has special characters" \
-                    "not allowed by Reaper. Make sure your track names" \
-                    "use only basic characters and try again.")
-            return None
-
-        # Empty item check.
-        if len(t_name) > 0:
-            tracks.append(t_name.upper().strip())
-
-    return tracks
-
 def get_midi_data(item):
     notes_array = []
     notes_pos = 0
