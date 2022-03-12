@@ -3,7 +3,7 @@ A script to convert MIDI notes to emotions readable by Rock Band 2/3/4. Allows a
 
 Usage: Add RBEM as a script to Reaper. This script will read tracks named "emotion\#" where \# is a number from 1-4.
 
-Place notes on the notes outlined below with a velocity of 0-127 and a channel of 1 or 2 allowing you to go from 0-255 in strength. Running the script will then place text events in the track. Copy this to a track named "LIPSYNC\#" where \# is 1-4 and let Onyx create a milo file to be used in-game.
+Place notes on the notes outlined below with a velocity of 0-127 and a channel of 1 or 2 allowing you to go from 0-255 in strength. Channel 1 will go from strength 0-127 (skipping 1), and channel 2 will go from strength 128-255 (skipping 129). Running the script will then place text events in the track. Copy this to a track named "LIPSYNC\#" where \# is 1-4 and let Onyx create a milo file to be used in-game.
 
 Use in combination with lipsync2midi (which will create your LIPSYNC tracks for you) in order to add emotions quicker to your own songs: https://github.com/AddyMills/RB-Tools
 
