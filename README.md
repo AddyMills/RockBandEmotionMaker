@@ -82,4 +82,6 @@ The MIDI notes that correspond to different notes are as follows:
 * 115: 'Wet_lo',
 
 ## Special Thanks
-The code in this script was mainly written by kueller (whose repo this one was forked from). I rewrote the notes to text fuction with my own code for this project.
+Kueller - The code in this script was mainly written by kueller (whose repo this one was forked from). I rewrote the notes to text fuction with my own code for this project.
+
+Canon/C0Assassin - For providing me with an edited version of Kueller's script that started the work on adding emotions to RB2/3/4
