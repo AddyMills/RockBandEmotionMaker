@@ -5,7 +5,8 @@ import os
 
 tracks = ["emotion1", "emotion2", "emotion3", "emotion4"]
 
-visemes_text = {'Blink': 49,
+visemes_text = {'Squint': 48,
+    'Blink': 49,
     'Brow_aggressive': 50,
     'Brow_down': 51,
     'Brow_dramatic': 52,
@@ -75,7 +76,8 @@ visemes_text = {'Blink': 49,
 
 }
 
-visemes_note = {   49: 'Blink',
+visemes_note = {48: 'Squint',
+    49: 'Blink',
     50: 'Brow_aggressive',
     51: 'Brow_down',
     52: 'Brow_dramatic',

@@ -67,4 +67,5 @@
 51 Brow_down
 50 Brow_aggressive
 49 Blink
-48 -
+48 Squint
+47 -
